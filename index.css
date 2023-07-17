@@ -1,0 +1,49 @@
+.fizzbuzz__title {
+  text-align: center;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.number-fizzbuzz {
+  width: 70px;
+  height: 10px;
+}
+
+#fizzbuzz {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.fizzbuzz_item {
+  padding: 3px;
+  margin: 4px;
+  width: 150px;
+
+  font-family: 'FancyFont', cursive;
+  font-size: 20px;
+  transition: transform 0.3s;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+@media(max-width: 500px) {
+  .fizzbuzz_item {
+    width: 70px;
+  
+    font-size: 14px;
+  }
+}
+
+.fizzbuzz_item:hover {
+  transform: scale(1.2);
+  background-color: #f0f0f0;
+
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+
+}
