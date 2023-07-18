@@ -8,9 +8,11 @@
   gap: 10px;
 }
 
-.number-fizzbuzz {
+.amount-fizzbuzz {
   width: 70px;
   height: 10px;
+
+  text-align: center;
 }
 
 #fizzbuzz {

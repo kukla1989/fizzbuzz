@@ -1,6 +1,8 @@
-  ## Project Setup
-
 This project provides a simple FizzBuzz implementation using TypeScript and HTML. Follow the instructions below to set up the project.
+
+## Deploy
+
+This project has been successfully deployed and is accessible on [GitHub Pages](https://kukla1989.github.io/fizzbuzz/).
 
 ### Installation
 
